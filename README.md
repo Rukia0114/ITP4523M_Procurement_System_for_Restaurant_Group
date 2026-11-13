@@ -1,5 +1,3 @@
-# Web Application Project
-
 ## Overview
 A simplified web application designed to manage orders and inventory between Purchase Managers and Suppliers. 
 
