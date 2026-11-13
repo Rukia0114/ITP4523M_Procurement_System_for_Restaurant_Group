@@ -1,0 +1,70 @@
+/*formating the form*/
+form {
+    margin: 25px auto; /*make it in center*/
+    padding: 30px;
+    max-width: 700px;
+    background-color: wheat;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+
+}
+
+body {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    background-repeat: no-repeat;
+}
+
+/*formating the label*/
+label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*formating the input type (text and number) and textarea */
+input[type="text"], input[type="number"], textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+/*formating the textarea*/
+textarea {
+    height: 150px;
+}
+
+input[type="submit"], input[type="reset"], [type="button"] {
+    display: inline block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: skyblue;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer; /*show mouse cursor*/
+}
+
+input[type="reset"] {
+    float: right;
+    margin-right: 30px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover, [type="button"]:hover {
+    background-color: yellow;
+}
+
+#previewImage {
+    max-width: 200px;
+    max-height: 200px;
+    display: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+

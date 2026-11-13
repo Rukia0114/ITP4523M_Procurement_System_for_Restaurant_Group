@@ -1,0 +1,43 @@
+# ===========================
+# .gitignore for PHP Project
+# ===========================
+
+# Environment variables (use env instead)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Composer dependencies
+/vendor/
+composer.lock
+
+# Logs
+/logs/*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+
+# Local configuration
+.local.php
+config_local.php
+database.local.php
+
+.sql
+
+.github/
+
+.idea/

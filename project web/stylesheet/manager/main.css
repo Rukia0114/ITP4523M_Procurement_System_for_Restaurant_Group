@@ -1,0 +1,22 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.form-row, .form-group {
+    margin-bottom: 1rem;
+}
+
+.alert {
+    display: flex;
+    padding: 15px;
+    color: black;
+    margin-bottom: 15px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
